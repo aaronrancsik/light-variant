@@ -38,7 +38,7 @@ class ShellApp {
     this.windows.forEach(win => {
       if (!win._darkVariant) {
         win._darkVariant = true
-        applyVariant(win, 'dark')
+        applyVariant(win, 'light')
       }
     })
   }
@@ -49,7 +49,7 @@ class ShellApp {
     this.windows.forEach(win => {
       if (win._darkVariant) {
         delete win['_darkVariant']
-        applyVariant(win, 'light')
+        applyVariant(win, 'dark')
       }
     })
   }
