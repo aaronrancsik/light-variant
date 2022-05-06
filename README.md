@@ -1,5 +1,5 @@
-# Dark Variant
-Gnome Shell extension to apply dark window decorations on selected applications. This extension requires `xprop` to work and is not compatible with applications that use Client Side Decorations (CSD).
+# Light Variant
+Gnome Shell extension to apply light window decorations on selected applications. This extension requires `xprop` to work and is not compatible with applications that use Client Side Decorations (CSD).
 
 ![Screenshot](https://raw.githubusercontent.com/hardpixel/dark-variant/master/screenshot.png)
 
@@ -13,13 +13,13 @@ Make sure you have installed `xorg-xprop`:
 Then, download the latest [release](https://github.com/hardpixel/dark-variant/releases) and extract `dark-variant@hardpixel.eu` into `~/.local/share/gnome-shell/extensions`.
 
 ### Gnome Shell Extensions
-The easiest way to install this extension is via the official [Gnome Shell Extensions](https://extensions.gnome.org) resource page [here](https://extensions.gnome.org/extension/4488/dark-variant).
+The easiest way to install this extension is via the official [Gnome Shell Extensions]
 
 ### Packages
-Arch Linux: [AUR package](https://aur.archlinux.org/packages/gnome-shell-extension-dark-variant)
+Arch Linux:
 
 ## Contributing
-Bug reports and pull requests are welcome on GitHub at https://github.com/hardpixel/dark-variant.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aaronrancsik/light-variant
 
 ## License
-Dark Variant is available as open source under the terms of the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.en.html)
+Light Variant is available as open source under the terms of the [GPLv3](http://www.gnu.org/licenses/gpl-3.0.en.html)
